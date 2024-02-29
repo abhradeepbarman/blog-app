@@ -3,14 +3,22 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
 
 html,
 body {
-    overflow-x: hidden;
+   overflow-x: hidden;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+   font-family: 'Inter', sans-serif;
+}
+
+.blog-name {
+   font-family: "Anta", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 2rem;
 }
 
 .spinner {
