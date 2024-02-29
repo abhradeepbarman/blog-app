@@ -14,7 +14,7 @@ const Header = () => {
     <div className={`w-full 
     ${!darkMode ? ("bg-white") : ("bg-[#1F2937] text-white") }  flex justify-between items-center pr-12 fixed shadow-md`}>
         <header className='text-center py-4 ml-auto'>
-            <h1 className='text-3xl font-bold blog-name cursor-pointer'
+            <h1 className='text-3xl font-bold blog-name cursor-pointer select-none'
             onClick={() => navigate("/")}>
                 Tech Talk
             </h1> 
